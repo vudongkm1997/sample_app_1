@@ -2,6 +2,9 @@ en:
   flash_success: "Welcome to the Sample App!"
   user_not_exist: "User does'nt exist! Please sign up!"
   flash_danger: "Invalid email/password combination"
+  profile_update: "Profile updated"
+  pls_login: "Please log in."
+  user_deleted: "User deleted"
   layouts:
     footer:
       ror_tut: "Ruby on Rails Tutorial"
@@ -20,6 +23,7 @@ en:
       profile: "Profile"
       settings: "Settings"
       logout: "Log out"
+      account: "Account"
   static_pages:
     contact:
       contact: "Contact"
@@ -54,6 +58,11 @@ en:
       ror: "Ruby on Rails"
       this_is: "This is the sample application for the tutorial."
   users:
+    user:
+      destroy: "delete"
+      confirm: "You sure?"
+    index:
+      all: "All users"
     new:
       sign_up: "Sign up"
       sign_up_title: "Sign up"
@@ -62,6 +71,14 @@ en:
       name: "Name"
       email: "Email"
       password: "Password"
+    edit:
+      edit_user: "Edit user"
+      confirm: "Confirmation"
+      save_changes: "Save changes"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      change: "change"
   shared:
     error_messages:
       the_form_contains: "The form contains "
